@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: simple-nodejs-app-eowg
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-yxms-tenant/nodejs-users/simple-nodejs-app-eowg@sha256:d30e56d6f3d0932a12edb98d485c74922dc05ab1da1eabb6036a4e18369218f1
+        name: my-nodejs
+        resources: {}
+status: {}
