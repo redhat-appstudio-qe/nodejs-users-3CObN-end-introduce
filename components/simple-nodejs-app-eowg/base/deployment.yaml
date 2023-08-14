@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: simple-nodejs-app-eowg
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-yxms-tenant/nodejs-users/simple-nodejs-app-eowg@sha256:d30e56d6f3d0932a12edb98d485c74922dc05ab1da1eabb6036a4e18369218f1
         name: my-nodejs
         ports:
         - containerPort: 3001
